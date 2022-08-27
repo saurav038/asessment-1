@@ -1,0 +1,41 @@
+.masterhead{
+    /* background-size: cover; */
+    min-height: 90vh;
+    position: relative;
+    color: rgb(32, 2, 27);
+    text-shadow: 2px 2px 2px rgb(0,0,.2);
+}
+h4{
+    color:white;
+    margin-top: 100px;
+
+}
+h1{
+    
+    font-size: 4.5em;
+    color: aliceblue;
+    text-align: left;
+    margin-top: 20px;
+    display: block;
+}
+#image{
+    height:60px;
+    margin-top: 80px;
+    
+}
+#para{
+    font-weight: 300;
+    margin-top: 70px;
+}
+@media(max-width: 768px){
+    .masterhead{
+        min-height: 80vh;
+    }
+    h1{
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}
+#col_about{
+    font-size:1.7em
+}
+
